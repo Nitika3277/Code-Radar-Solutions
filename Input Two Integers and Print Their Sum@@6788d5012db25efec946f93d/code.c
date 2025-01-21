@@ -3,10 +3,9 @@
 
 int main() {
     int a,b;
+    scanf("%d %d",&a &b);
     printf();
-    scanf("%d",&a);
-    printf();
-    scanf("%d",&b);
+
     printf("Sum:",a+b);
 
     
