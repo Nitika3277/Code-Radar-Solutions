@@ -6,7 +6,7 @@ int main() {
     printf("Name: %c/n",name);
     int age;
     scanf("%d",&age);
-    printf("Age: %d/n",&age);
+    printf("Age: %d/n",age);
     char hobby;
     scanf("%c",&hobby);
     printf("Hobby: %c/n",hobby);
