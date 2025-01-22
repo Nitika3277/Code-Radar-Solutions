@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     char name;
     scanf("%c",&name);
     printf("Name: %c\n",name);
@@ -10,5 +10,5 @@ int main() {
     char hobby;
     scanf("%c",&hobby);
     printf("Hobby: %c\n",hobby);
-    return 0;
+
 }
