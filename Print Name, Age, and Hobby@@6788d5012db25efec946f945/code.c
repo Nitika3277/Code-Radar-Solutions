@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     char name;
     scanf("%c",&name);
     printf("Name: %c\n",name);
