@@ -12,7 +12,7 @@ int main() {
         printf("%d",ch);
     }
     else{
-        printf("Specia; Character");
+        printf("Special Character");
     }
     return 0;
 }
