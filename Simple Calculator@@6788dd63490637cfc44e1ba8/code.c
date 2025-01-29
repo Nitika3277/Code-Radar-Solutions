@@ -4,7 +4,7 @@ int main() {
     char c;
     scanf("%d" "%d" "%c",&a,&b,&c);
     if(a+b || a-b || a*b || a/b){
-        printf("%d" "%d" "%c",a,b);
+        printf("%d" "%d" "%c",a,b,c);
 
     }
     else{
