@@ -2,15 +2,22 @@
 int main() {
     int a,b;
     char c;
-    c=*,+,-,/
-    scanf("%d" "%d" "%c",&a,&b,&c);
-    if(a+b || a-b || a*b || a/b){
-        printf("%d" "%d" "%c",a,b,c);
+    scanf("%d %d %c",&a,&b,&c);
+    if(c=='+'){
+        printf("%d",a+b);
 
+    }else if(c=='-'){
+        printf("%d",a-b);
     }
-    else{
-        print("Error");
+    else if(c=='*'){
+        printf("%d",a*b);
     }
+    else if(c=='/'){
+        if(b==0){
+            printf("error");}
+        else{
+            printf("%d",a/b);
+        }
    
 
     return 0;
