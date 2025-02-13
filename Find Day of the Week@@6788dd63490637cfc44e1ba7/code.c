@@ -20,5 +20,5 @@ int main() {
         Default : printf("Invalid");
         return 0;
 
-
+    }
     }
