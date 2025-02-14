@@ -2,12 +2,15 @@
 in main(){
     int a;
     scanf("%d",&a);
-    if(a==1){
+    if(a&1==1){
         printf("Set");
+
     }
-    else if(a==0){
+    else{
         printf("Not Set");
     }
+    
+  
     return 0;
    
 }
