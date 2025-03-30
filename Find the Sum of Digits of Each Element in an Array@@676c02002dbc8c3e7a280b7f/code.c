@@ -6,6 +6,7 @@ int sum_of_digit(int n){
         sum+=n%10;
         n/=10;
     }
+    retun sum;
 }
 int main(){
     int n;
