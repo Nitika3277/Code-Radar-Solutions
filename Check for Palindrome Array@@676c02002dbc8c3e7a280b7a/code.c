@@ -1,5 +1,5 @@
 #include<stdio.h>
-int PalindromCheck(int arr[], int n){
+int PalindromeCheck(int arr[], int n){
     for(int i=0;i<n;i++){
         if(arr[i]!=arr[n-i-1]){
             return 0;
