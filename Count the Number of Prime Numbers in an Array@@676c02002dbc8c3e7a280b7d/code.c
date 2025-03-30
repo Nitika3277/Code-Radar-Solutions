@@ -24,4 +24,5 @@ int main(){
       }
     }
     printf("%d",Primecount);
+    return 0;
 }
