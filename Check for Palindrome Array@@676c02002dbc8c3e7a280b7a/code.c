@@ -1,6 +1,6 @@
 #include<stdio.h>
 int PalindromCheck(int arr[], int n){
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         if(arr[i]!=arr[n-i- 0;1]){
             return
         }
