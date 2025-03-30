@@ -3,15 +3,15 @@ int fib(int a);
 int main(){
     int a;
     scanf("%d",&a);
-    
+
 
 }
 int fib(int a){
-    if(n==0 || n==1){
-        if(n==0){
+    if(a==0 || a==1){
+        if(a==0){
         return 0;
         }
-        if(n==1){
+        if(a==1){
             return 1;
         }
     }
