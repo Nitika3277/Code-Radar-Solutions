@@ -18,10 +18,3 @@ void printArray(int arr[], int n) {
     printf("\n");
 }
 
-   int n;
-   scanf("%d",&n);
-   int arr[n];
-   bubbleSort(arr, n);
-    printArray(arr, n);
-
-    return 0;
