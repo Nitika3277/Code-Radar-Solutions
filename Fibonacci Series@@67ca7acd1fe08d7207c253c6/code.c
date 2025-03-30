@@ -3,8 +3,8 @@ int fib(int a);
 int main(){
     int a;
     scanf("%d",&a);
-   
-    printf("%d",fib());
+fibN=fib(int a)
+    printf("%d",fibN());
 
 }
 int fib(int a){
