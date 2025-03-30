@@ -13,7 +13,7 @@ int PalindromeCheck(int arr[], int n){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    if (PalidromeCheck(arr,n)){
+    if (PalindromeCheck(arr,n)){
         printf("YES");
     }
     else{
