@@ -1,4 +1,4 @@
-#incude<stdio.h>
+#include<stdio.h>
 void EvenOdd(int arr[],int n, int *even,int*odd){
     *even=0;
     *odd=0;
@@ -15,7 +15,7 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    for (i=0;i<n;i++){
+    for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     int even,odd;
