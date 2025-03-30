@@ -20,7 +20,7 @@ int main(){
     int Primecount=0;
     for(int i=0;i<n;i++){
       if isPrime(arr[i]){
-        Primecount++
+        Primecount++;
       }
     }
     printf(Primecount);
