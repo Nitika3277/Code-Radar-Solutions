@@ -1,21 +1,20 @@
-void fibonacciSeries(int n) {
-    if (n <= 0) {
-        printf("Invalid input\n");
-        return;
+void fibonacciSeries(int n){
+    if(n<=0){
+        printf("Invalid input");
+        return ;
     }
-
-    int a = 0, b = 1, c;
-    if (n >= 1) {
-        printf("0");
+    int a=0,b=1,c;
+    if(n>=1){
+        return 0;
     }
-    if (n >= 2) {
-        printf(" 1");
+    if(n>=2){
+        return 1;
     }
-    for (int i = 3; i <= n; i++) {
-        c = a + b;
-        printf(" %d", c);
-        a = b;
-        b = c;
+    for(i=3;i<=n;i++){
+        c=a+b;
+        printf("%d",c);
+        a=b;
+        b=c;
     }
     printf("\n");
 }
