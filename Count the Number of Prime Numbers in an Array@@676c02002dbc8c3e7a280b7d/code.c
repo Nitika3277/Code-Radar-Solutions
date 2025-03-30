@@ -23,5 +23,5 @@ int main(){
         Primecount++;
       }
     }
-    printf(Primecount);
+    printf("%d",Primecount);
 }
