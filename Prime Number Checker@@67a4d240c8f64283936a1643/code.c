@@ -1,4 +1,4 @@
-int prime(int num){
+int is_prime(int num){
     if(num<=0){
         return 0;
     }
