@@ -1,24 +1,12 @@
-#include<stdio.h>
-int fib(int a); 
+#incude<stdio.h>
+int fibonacciSeries(int n);
 int main(){
-    int a;
-    scanf("%d",&a);
-    fib(a);
-    printf("%d",fib());
-    return 0;
-
-}
-int fib(int a){
-    if(a==0 || a==1){
-        if(a==0){
+    int n;
+    scanf("%d",&n);
+    if(n<=0){
+        printf("Invalid input\n");
         return 0;
-        }
-        if(a==1){
-            return 1;
-        }
     }
-    int fibf=fib(a-1);
-    int fibs=fib(a-2);
-    int fibN= fibf+fibs;
-    return fibN;
+    febonacciSeries(n);
+    return 0;
 }
