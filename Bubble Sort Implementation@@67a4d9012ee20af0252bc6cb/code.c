@@ -25,4 +25,3 @@ void printArray(int arr[], int n) {
     printArray(arr, n);
 
     return 0;
-}
