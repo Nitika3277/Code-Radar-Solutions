@@ -18,5 +18,5 @@ int fib(int a){
     int fibf=fib(a-1);
     int fibs=fib(a-2);
     int fibN= fibf+fibs;
-    return fibN;
+    printf("%d\n",fibN);
 }
