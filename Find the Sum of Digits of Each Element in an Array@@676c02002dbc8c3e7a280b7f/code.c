@@ -12,7 +12,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     for (int i=0;i<n;i++){
         printf("%d",sum_of_digit(arr[i]));
