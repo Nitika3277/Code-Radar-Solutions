@@ -1,4 +1,4 @@
-#incude<stdio.h>
+#include<stdio.h>
 int fibonacciSeries(int n);
 int main(){
     int n;
