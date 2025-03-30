@@ -5,19 +5,13 @@ void bubblesort(int arr[],int n){
             if(arr[j]>arr[j+1])
             swap(arr,i,j);
         }}}
-        void printArray(int arr[],int n, int i,int j){
-            int temo=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
-        }
         int main(){
             int n;
             scanf("%d",&n);
             int arr[n];
-            for (i=0;i<n,i++){
+            for (int i =0;i<n,i++){
                 scanf("%d",&arr[i]);
             }
             bubblesort(arr,n);
-            printArray(arr,n);
             return 0;
         }
