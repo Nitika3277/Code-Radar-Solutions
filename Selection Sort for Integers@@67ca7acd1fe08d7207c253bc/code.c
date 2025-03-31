@@ -6,14 +6,17 @@ void selectionSort(int arr[],int n){
                 smallestIdx=j;
             }
         }
-        swap(arr[i],arr[smallestIdx]);
+        int temp=arr[minIndex];
+        arr[minIndex]=arr[j];
+        arr[j]=temp;
+        
         }
     }
 
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
-        count<<arr[i]<<" "}
-        count <<end l;}
+        printf("%d",arr[i]);}
+        
 
     
     printf("\n");
